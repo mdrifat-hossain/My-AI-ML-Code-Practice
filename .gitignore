@@ -1,0 +1,31 @@
+# Google Drive temporary files
+.tmp.*
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Model files (optional)
+models/
+*.pkl
+*.joblib
+
+# Logs
+*.log
