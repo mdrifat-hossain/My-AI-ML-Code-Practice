@@ -54,9 +54,3 @@ llm = ChatGroq(model="llama-3.3-70b-versatile")   # also has a free tier
 ```
 Everything else (prompt template, chain, function) stays the same.
 
-## 📽️ Demo video checklist
-- Explain the objective (10–15 sec)
-- Show the prompt template + chain code (20–30 sec)
-- Run the agent live with an English topic
-- Run it again with a non-English language (e.g., Bengali) to prove multilingual support
-- Show the final formatted post (hook, body, hashtags)
