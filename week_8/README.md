@@ -12,7 +12,7 @@ LinkedIn post.
 ## 🧠 How it works
 1. A `PromptTemplate` defines the agent's role, instructions, and desired output structure
    (hook → body → call-to-action → hashtags).
-2. An `LLMChain` binds that template to an LLM (`ChatGoogleGenerativeAI`, `gemini-2.5-flash`
+2. An `LLMChain` binds that template to an LLM (`ChatGoogleGenerativeAI`, `gemini-3.6-flash`
    by default — free tier).
 3. `generate_linkedin_post(topic, language)` fills in the template and returns the model's
    output as a clean string.
@@ -21,7 +21,6 @@ LinkedIn post.
 | File | Purpose |
 |---|---|
 | `AI_LinkedIn_Post_Agent.ipynb` | Main notebook — run in Google Colab or Jupyter |
-| `agent.py` | Equivalent standalone script — run locally (VS Code / terminal) |
 | `requirements.txt` | Python dependencies |
 
 ## 🔑 Get a free API key
